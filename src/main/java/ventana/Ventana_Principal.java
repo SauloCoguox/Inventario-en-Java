@@ -38,7 +38,7 @@ public class Ventana_Principal extends javax.swing.JFrame {
         btn_Compras = new javax.swing.JButton();
         btn_Ventas = new javax.swing.JButton();
         btn_Pedidos = new javax.swing.JButton();
-        btn_Exit = new javax.swing.JButton();
+        btn_Salir = new javax.swing.JButton();
         panelPrincipal = new javax.swing.JPanel();
         paneInventario = new javax.swing.JPanel();
         panelCompras = new javax.swing.JPanel();
@@ -86,14 +86,14 @@ public class Ventana_Principal extends javax.swing.JFrame {
         });
         panelBotones.add(btn_Pedidos);
 
-        btn_Exit.setText("Salir");
-        btn_Exit.setMaximumSize(new java.awt.Dimension(150, 30));
-        btn_Exit.addActionListener(new java.awt.event.ActionListener() {
+        btn_Salir.setText("Salir");
+        btn_Salir.setMaximumSize(new java.awt.Dimension(150, 30));
+        btn_Salir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_ExitActionPerformed(evt);
+                btn_SalirActionPerformed(evt);
             }
         });
-        panelBotones.add(btn_Exit);
+        panelBotones.add(btn_Salir);
 
         panelPrincipal.setLayout(new java.awt.CardLayout());
 
@@ -186,9 +186,9 @@ public class Ventana_Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_PedidosActionPerformed
 
-    private void btn_ExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ExitActionPerformed
+    private void btn_SalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_SalirActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_ExitActionPerformed
+    }//GEN-LAST:event_btn_SalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -226,11 +226,11 @@ public class Ventana_Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Compras;
-    private javax.swing.JButton btn_Exit;
-    private javax.swing.JButton btn_Pedidos;
-    private javax.swing.JButton btn_Productos;
-    private javax.swing.JButton btn_Ventas;
+    public javax.swing.JButton btn_Compras;
+    public javax.swing.JButton btn_Pedidos;
+    public javax.swing.JButton btn_Productos;
+    public javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Ventas;
     private javax.swing.JPanel paneInventario;
     private javax.swing.JPanel panelBotones;
     private javax.swing.JPanel panelCompras;
